@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pipenv = "*"
+psutil = "*"
+memory-profiler = "*"
+termcolor = "*"
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+plotly = "==5.10.0"
+networkx = "*"
+nbformat = "*"
+ipython = "*"
+pydot = "*"
+treelib = "*"
+tabulate = "*"
+ipykernel = "*"
+pep8 = "*"
+autopep8 = "*"
+sortedcontainers = "*"
+
+[dev-packages]
+pycodestyle = "*"
+autopep8 = "*"
+pytest = "*"
+ipykernel = "*"
+pypdf2 = "*"
+
+[requires]
+python_version = "3"
